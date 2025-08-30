@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stopwatch App</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>STOPWATCH</h1>
+    <span id="display">00:00:00.000</span><br />
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <button id="resetBtn">Reset</button>
+    <button id="lapBtn">Lap</button>
+    <button id="saveBtn">Save Time</button>
+    <br />
+    <div id="laps"></div>
+    <div id="savedTimes"></div>
+  </div>
+
+  <label class="switch">
+    <input type="checkbox" id="darkModeToggle" />
+    <span class="slider"></span> Dark Mode
+  </label>
+
+<script src="script.js"></script>
+</body>
+</html>
